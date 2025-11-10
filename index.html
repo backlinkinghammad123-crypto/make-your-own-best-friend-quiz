@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Ultimate Best Friend Test: How Well Do You Know Your Bestie? | Friendship Quiz</title>
+    <meta name="description" content="Take the ultimate 'How Well Do You Know Me' quiz to test your friendship! Answer 15 deep-cut questions about your best friend to see if you have Soulmate Status. Start the BFF quiz now!">
+    <meta name="keywords" content="best friend test, friendship quiz, how well do you know me, BFF quiz, best friend questions, friendship test, ultimate best friend test">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="The Ultimate Best Friend Test: How Well Do You Know Your Bestie?">
+    <meta property="og:description" content="Test your deep knowledge of your closest companion with 15 fun, unique questions. Are you true BFFs?">
+    <meta property="og:type" content="website">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8;
+            /* Light blue-gray background */
+        }
+        /* Basic prose styling for the article */
+        
+        .prose h3 {
+            @apply text-2xl font-bold text-gray-800 mb-4 mt-8;
+        }
+        
+        .prose h4 {
+            @apply text-xl font-semibold text-teal-600 mb-3 mt-6;
+        }
+        
+        .prose p {
+            @apply text-gray-700 leading-relaxed mb-4 text-base;
+        }
+        
+        .prose ul {
+            @apply list-disc list-outside ml-5 space-y-2 text-gray-700;
+        }
+        
+        .prose strong {
+            @apply font-semibold text-gray-900;
+        }
+    </style>
+</head>
+
+<body class="min-h-screen antialiased">
+
+    <div class="container mx-auto p-4 md:p-8 lg:p-12">
+
+        <header class="text-center mb-10 bg-white p-6 md:p-10 rounded-xl shadow-2xl border-b-4 border-teal-500">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900 mb-4">
+                The Ultimate Best Friend Test
+            </h1>
+            <h2 class="text-xl md:text-2xl font-semibold text-gray-600">
+                How Well Do You Know Your Bestie? Take the Ultimate Friendship Quiz!
+            </h2>
+            <div class="mt-6 text-left max-w-3xl mx-auto">
+                <p class="text-gray-700 leading-relaxed mb-4">
+                    In the digital age, a "best friend quiz" is more than just a passing trend; it's a genuine way to test and celebrate the deep, often hilarious knowledge you hold about your closest companion. Whether you’re looking to settle a friendly debate or simply
+                    seeking a fun activity to share, <a href="https://bestiequiz.com">this <strong>make your own Bestie Quiz</strong></a> is the perfect way to gauge just how in-sync you and your best friend truly are.
+                </p>
+                <h2 class="text-2xl font-bold text-teal-600 mb-3 mt-8">
+                    Why Take a "How Well Do You Know Me" Quiz?
+                </h2>
+                <p class="text-gray-700 leading-relaxed">
+                    Friendship quizzes are highly <strong>sharable</strong> and <strong>engaging</strong> content! People search for terms like "<strong>best friend questions</strong>," "<strong>friendship test</strong>," and "<strong>BFF quiz</strong>"
+                    because they crave validation, fun, and content to share. This quiz challenges your knowledge on everything from obscure childhood stories to current coffee orders.
+                </p>
+            </div>
+        </header>
+
+        <form id="friendshipQuiz" class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+
+            <div class="quiz-card bg-white p-6 rounded-xl shadow-lg border-l-4 border-indigo-500 hover:shadow-xl transition duration-300">
+                <p class="text-sm font-medium text-indigo-500 mb-2">Category 1: The Basics</p>
+                <label for="q1" class="block text-lg font-semibold text-gray-800 mb-2">
+                    1. What is your best friend's favorite color?
+                </label>
+                <input type="text" id="q1" name="q1" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-indigo-500 focus:border-indigo-500" placeholder="e.g., Teal, Magenta, Black">
+            </div>
+
+            <div class="quiz-card bg-white p-6 rounded-xl shadow-lg border-l-4 border-indigo-500 hover:shadow-xl transition duration-300">
+                <p class="text-sm font-medium text-indigo-500 mb-2">Category 1: The Basics</p>
+                <label for="q2" class="block text-lg font-semibold text-gray-800 mb-2">
+                    2. If they had to eat one cuisine for life, which would they choose?
+                </label>
+                <input type="text" id="q2" name="q2" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-indigo-500 focus:border-indigo-500" placeholder="e.g., Italian, Thai, Mexican">
+            </div>
+
+            <div class="quiz-card bg-white p-6 rounded-xl shadow-lg border-l-4 border-indigo-500 hover:shadow-xl transition duration-300">
+                <p class="text-sm font-medium text-indigo-500 mb-2">Category 1: The Basics</p>
+                <label for="q3" class="block text-lg font-semibold text-gray-800 mb-2">
+                    3. What is their middle name?
+                </label>
+                <input type="text" id="q3" name="q3" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-indigo-500 focus:border-indigo-500" placeholder="A single name">
+            </div>
+
+            <div class="quiz-card bg-white p-6 rounded-xl shadow-lg border-l-4 border-indigo-500 hover:shadow-xl transition duration-300">
+                <p class="text-sm font-medium text-indigo-500 mb-2">Category 1: The Basics</p>
+                <label for="q4" class="block text-lg font-semibold text-gray-800 mb-2">
+                    4. What is their current dream vacation destination?
+                </label>
+                <input type="text" id="q4" name="q4" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-indigo-500 focus:border-indigo-500" placeholder="e.g., Iceland, Tokyo, The Maldives">
+            </div>
+
+            <div class="quiz-card bg-white p-6 rounded-xl shadow-lg border-l-4 border-indigo-500 hover:shadow-xl transition duration-300">
+                <p class="text-sm font-medium text-indigo-500 mb-2">Category 1: The Basics</p>
+                <label for="q5" class="block text-lg font-semibold text-gray-800 mb-2">
+                    5. What is one thing they are secretly afraid of?
+                </label>
+                <input type="text" id="q5" name="q5" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-indigo-500 focus:border-indigo-500" placeholder="e.g., Clowns, Public Speaking, The Ocean">
+            </div>
+
+            <div class="quiz-card bg-white p-6 rounded-xl shadow-lg border-l-4 border-purple-500 hover:shadow-xl transition duration-300">
+                <p class="text-sm font-medium text-purple-500 mb-2">Category 2: Deep Cuts</p>
+                <label for="q6" class="block text-lg font-semibold text-gray-800 mb-2">
+                    6. What is the first movie you remember watching together?
+                </label>
+                <input type="text" id="q6" name="q6" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-purple-500 focus:border-purple-500" placeholder="Movie Title">
+            </div>
+
+            <div class="quiz-card bg-white p-6 rounded-xl shadow-lg border-l-4 border-purple-500 hover:shadow-xl transition duration-300">
+                <p class="text-sm font-medium text-purple-500 mb-2">Category 2: Deep Cuts</p>
+                <label for="q7" class="block text-lg font-semibold text-gray-800 mb-2">
+                    7. If they could have any superpower, what would it be?
+                </label>
+                <input type="text" id="q7" name="q7" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-purple-500 focus:border-purple-500" placeholder="e.g., Flying, Telekinesis, Invisibility">
+            </div>
+
+            <div class="quiz-card bg-white p-6 rounded-xl shadow-lg border-l-4 border-purple-500 hover:shadow-xl transition duration-300">
+                <p class="text-sm font-medium text-purple-500 mb-2">Category 2: Deep Cuts</p>
+                <label for="q8" class="block text-lg font-semibold text-gray-800 mb-2">
+                    8. What is the name of their first pet?
+                </label>
+                <input type="text" id="q8" name="q8" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-purple-500 focus:border-purple-500" placeholder="Pet's name">
+            </div>
+
+            <div class="quiz-card bg-white p-6 rounded-xl shadow-lg border-l-4 border-purple-500 hover:shadow-xl transition duration-300">
+                <p class="text-sm font-medium text-purple-500 mb-2">Category 2: Deep Cuts</p>
+                <label for="q9" class="block text-lg font-semibold text-gray-800 mb-2">
+                    9. What is their least favorite household chore?
+                </label>
+                <input type="text" id="q9" name="q9" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-purple-500 focus:border-purple-500" placeholder="e.g., Dishes, Laundry, Vacuuming">
+            </div>
+
+            <div class="quiz-card bg-white p-6 rounded-xl shadow-lg border-l-4 border-purple-500 hover:shadow-xl transition duration-300">
+                <p class="text-sm font-medium text-purple-500 mb-2">Category 2: Deep Cuts</p>
+                <label for="q10" class="block text-lg font-semibold text-gray-800 mb-2">
+                    10. What is their "go-to" order at your favorite coffee spot?
+                </label>
+                <input type="text" id="q10" name="q10" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-purple-500 focus:border-purple-500" placeholder="e.g., Iced Latte, Black Coffee, Earl Grey">
+            </div>
+
+            <div class="quiz-card bg-white p-6 rounded-xl shadow-lg border-l-4 border-pink-500 hover:shadow-xl transition duration-300">
+                <p class="text-sm font-medium text-pink-500 mb-2">Category 3: Future & Fun</p>
+                <label for="q11" class="block text-lg font-semibold text-gray-800 mb-2">
+                    11. If they won the lottery, what is the first big purchase?
+                </label>
+                <input type="text" id="q11" name="q11" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-pink-500 focus:border-pink-500" placeholder="e.g., A boat, a house, a trip">
+            </div>
+
+            <div class="quiz-card bg-white p-6 rounded-xl shadow-lg border-l-4 border-pink-500 hover:shadow-xl transition duration-300">
+                <p class="text-sm font-medium text-pink-500 mb-2">Category 3: Future & Fun</p>
+                <label for="q12" class="block text-lg font-semibold text-gray-800 mb-2">
+                    12. What is their favorite late-night snack?
+                </label>
+                <input type="text" id="q12" name="q12" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-pink-500 focus:border-pink-500" placeholder="e.g., Popcorn, Cereal, Ice Cream">
+            </div>
+
+            <div class="quiz-card bg-white p-6 rounded-xl shadow-lg border-l-4 border-pink-500 hover:shadow-xl transition duration-300">
+                <p class="text-sm font-medium text-pink-500 mb-2">Category 3: Future & Fun</p>
+                <label for="q13" class="block text-lg font-semibold text-gray-800 mb-2">
+                    13. What skill have they always wanted to learn?
+                </label>
+                <input type="text" id="q13" name="q13" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-pink-500 focus:border-pink-500" placeholder="e.g., Guitar, Coding, Baking">
+            </div>
+
+            <div class="quiz-card bg-white p-6 rounded-xl shadow-lg border-l-4 border-pink-500 hover:shadow-xl transition duration-300">
+                <p class="text-sm font-medium text-pink-500 mb-2">Category 3: Future & Fun</p>
+                <label for="q14" class="block text-lg font-semibold text-gray-800 mb-2">
+                    14. Which fictional character do they most identify with?
+                </label>
+                <input type="text" id="q14" name="q14" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-pink-500 focus:border-pink-500" placeholder="Character name">
+            </div>
+
+            <div class="quiz-card bg-white p-6 rounded-xl shadow-lg border-l-4 border-pink-500 hover:shadow-xl transition duration-300">
+                <p class="text-sm font-medium text-pink-500 mb-2">Category 3: Future & Fun</p>
+                <label for="q15" class="block text-lg font-semibold text-gray-800 mb-2">
+                    15. What is the one small thing you do that annoys them the most?
+                </label>
+                <input type="text" id="q15" name="q15" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-pink-500 focus:border-pink-500" placeholder="e.g., Running late, text-leaving, messy car">
+            </div>
+
+            <div class="md:col-span-2 lg:col-span-3 text-center pt-4">
+                <button type="submit" class="bg-teal-600 text-white font-bold py-4 px-10 rounded-full shadow-xl text-xl uppercase tracking-wider 
+                                         hover:bg-teal-700 transition duration-300 transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-teal-300">
+                    Get Your Score!
+                </button>
+            </div>
+        </form>
+
+        <section class="mt-16 pt-8 border-t-2 border-gray-300">
+            <div class="bg-white p-8 md:p-12 rounded-xl shadow-xl prose max-w-4xl mx-auto">
+
+                <h1 class="text-3xl md:text-4xl font-extrabold text-gray-900 text-center mb-8">
+                    The Anatomy of a Best Friend: Why True Connection Matters More Than a Quiz Score
+                </h1>
+
+                <p>
+                    Everyone has friends, but a <strong>best friend</strong> is different. From work buddies to late-night meme sharers, the "best friend" title is reserved for someone who has witnessed your highs, lows, and the most ordinary moments.
+                    Taking a <strong>friendship quiz</strong> is fun, but the real magic lies in the deep, psychological bond built over time—a connection essential for long-term happiness and wellbeing.
+                </p>
+
+                <h2 class="text-2xl font-bold text-gray-800 mt-8 mb-4">Part 1: How Friendships Begin – The Science of the "Click"</h2>
+                <p>Friendships don't just happen. They are formed through a combination of social cues, psychological factors, and mutual understanding.</p>
+
+                <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-2">1. Proximity and Exposure</h3>
+                <p>
+                    The first factor in friendship formation is <strong>proximity</strong>. You are more likely to bond with people you see often—at work, school, or in your neighborhood. This aligns with the <strong>mere exposure effect</strong>, where
+                    repeated interaction creates familiarity, trust, and comfort over time.
+                </p>
+
+                <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-2">2. Similarity and Homophily</h3>
+                <p>
+                    Humans naturally gravitate toward others with similar values, sense of humor, and life experiences. This principle, called <strong>homophily</strong>, validates connection instantly and communicates, "I understand you. You're safe
+                    here."
+                </p>
+
+                <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-2">3. Vulnerability Builds Trust</h3>
+                <p>
+                    The most important step in creating a strong bond is <strong>reciprocal vulnerability</strong>. Sharing your worries, fears, and successes—and being met with empathy—lays the foundation for long-term trust and intimacy.
+                </p>
+
+                <h2 class="text-2xl font-bold text-gray-800 mt-12 mb-4">Part 2: Pillars of an Unbreakable Friendship</h2>
+                <p>As casual friendships grow into best friendships, they rely on four key pillars that maintain stability and depth.</p>
+
+                <ul class="list-disc ml-6 mt-4 space-y-2">
+                    <li><strong>Unwavering Trust:</strong> Belief in your friend's good intentions and reliability.</li>
+                    <li><strong>Emotional Reciprocity:</strong> Balanced giving and receiving of support, advice, and empathy.</li>
+                    <li><strong>Shared History:</strong> Inside jokes, milestones, and shared experiences create a unique friendship identity.</li>
+                    <li><strong>Unconditional Support:</strong> A safe harbor for honest expression and non-judgmental guidance, even in difficult moments.</li>
+                </ul>
+
+                <h2 class="text-2xl font-bold text-gray-800 mt-12 mb-4">Part 3: Friendship Lifecycle – Growing Together</h2>
+                <p>Friendships are dynamic. To thrive, they must adapt through different life stages and challenges.</p>
+
+                <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-2">1. Honeymoon and Comfort Phases</h3>
+                <p>The initial excitement of a friendship—the "honeymoon phase"—evolves into deep comfort. You can simply "be" with your friend without constant effort, though this comfort requires maintenance to prevent stagnation.</p>
+
+                <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-2">2. Life Disruptors</h3>
+                <p>Jobs, moves, relationships, and family changes challenge friendships. Active maintenance—calling, visiting, scheduling time—is required to sustain deep bonds.</p>
+
+                <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-2">3. Rupture and Repair</h3>
+                <p>Conflict is natural. Strong friendships survive through:</p>
+                <ul class="list-disc ml-6 mt-4 space-y-2">
+                    <li><strong>Avoiding the "Four Horsemen":</strong> Criticism, contempt, defensiveness, and stonewalling.</li>
+                    <li><strong>Using "I" Statements:</strong> Express feelings constructively instead of blaming.</li>
+                    <li><strong>Mastering Genuine Apologies:</strong> Acknowledge mistakes and their impact without excuses.</li>
+                </ul>
+                <p>Successful repair strengthens the friendship beyond its previous state.</p>
+
+                <h2 class="text-2xl font-bold text-gray-800 mt-12 mb-4">Part 4: Modern Friendships – Digital Connection vs Emotional Core</h2>
+                <p>The digital world allows continuous low-effort connection but cannot replace real emotional intimacy.</p>
+
+                <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-2">Digital Bridge</h3>
+                <p>Memes, texts, and social media keep friends connected over long distances, maintaining a constant thread of interaction.</p>
+
+                <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-2">Emotional Core</h3>
+                <p>True intimacy requires meaningful conversations and intentional face-to-face or video interactions. The best friendships combine digital maintenance with quality synchronous interaction.</p>
+
+                <hr class="my-8 border-gray-300">
+
+                <p class="text-center font-semibold text-gray-800 mt-4">
+                    Remember: a <strong>friendship quiz</strong> is just for fun. The real value lies in the shared laughs, support, and deep bonds you nurture with your best friend.
+                </p>
+
+            </div>
+        </section>
+    </div>
+
+    <div id="resultModal" class="fixed inset-0 bg-gray-900 bg-opacity-75 hidden items-center justify-center p-4 z-50">
+        <div class="bg-white p-8 rounded-2xl shadow-2xl max-w-lg w-full transform transition-all duration-300 scale-95" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+            <h3 id="modalTitle" class="text-3xl font-bold text-center mb-4">Quiz Results 🏆</h3>
+            <p class="text-center text-gray-600 mb-6">See how well you scored on the Ultimate Best Friend Test!</p>
+
+            <div class="text-center mb-6">
+                <p class="text-6xl font-extrabold text-teal-600" id="scoreDisplay">0/15</p>
+            </div>
+
+            <div class="mb-6">
+                <p class="text-center text-xl font-semibold mb-2 text-gray-700">Friendship Status:</p>
+                <p class="text-center text-2xl font-bold text-indigo-700 bg-indigo-100 p-3 rounded-lg" id="statusDisplay">Casual Acquaintance</p>
+            </div>
+
+            <div class="bg-gray-50 p-4 rounded-lg">
+                <h4 class="font-bold text-gray-800 mb-2">Scoring Guide:</h4>
+                <ul class="text-sm text-gray-600 space-y-1">
+                    <li><strong class="text-teal-600">0 - 5:</strong> Casual Acquaintance</li>
+                    <li><strong class="text-teal-600">6 - 10:</strong> Solid Pal</li>
+                    <li><strong class="text-teal-600">11 - 14:</strong> True BFF</li>
+                    <li><strong class="text-teal-600">15/15:</strong> Soulmate Status</li>
+                </ul>
+            </div>
+
+            <button onclick="closeModal()" class="mt-6 w-full bg-indigo-500 text-white font-bold py-3 rounded-lg hover:bg-indigo-600 transition duration-300">
+                Close & Challenge My Friend
+            </button>
+        </div>
+    </div>
+
+    <script>
+        // Placeholder 'Correct' Answers (Simulating the friend's actual answers)
+        // Note: In a real app, this might be fetched from a database or set by the friend.
+        const correctAnswers = {
+            q1: 'Blue',
+            q2: 'Mexican',
+            q3: 'Marie',
+            q4: 'Japan',
+            q5: 'Spiders',
+            q6: 'Shrek',
+            q7: 'Flying',
+            q8: 'Buddy',
+            q9: 'Dishes',
+            q10: 'Iced Latte',
+            q11: 'House',
+            q12: 'Cereal',
+            q13: 'Guitar',
+            q14: 'Leslie Knope',
+            q15: 'Running late'
+        };
+
+        const form = document.getElementById('friendshipQuiz');
+        const modal = document.getElementById('resultModal');
+        const scoreDisplay = document.getElementById('scoreDisplay');
+        const statusDisplay = document.getElementById('statusDisplay');
+
+        // Function to handle showing the modal
+        function showModal() {
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+        }
+
+        // Function to handle hiding the modal
+        function closeModal() {
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+        }
+
+        function calculateScore() {
+            let score = 0;
+            const totalQuestions = Object.keys(correctAnswers).length;
+            const formData = new FormData(form);
+
+            for (let i = 1; i <= totalQuestions; i++) {
+                const questionKey = `q${i}`;
+                const userAnswer = formData.get(questionKey) ? formData.get(questionKey).trim().toLowerCase() : '';
+                const correctAnswer = correctAnswers[questionKey] ? correctAnswers[questionKey].toLowerCase() : '';
+
+                // Simple scoring logic: check if the user's answer contains the main keyword of the correct answer
+                if (userAnswer && correctAnswer && userAnswer.includes(correctAnswer.split(' ')[0])) {
+                    score++;
+                }
+            }
+
+            // Determine Status and corresponding Tailwind classes
+            let status = '';
+            let statusColor = '';
+
+            if (score <= 5) {
+                status = 'Casual Acquaintance';
+                statusColor = 'text-red-700 bg-red-100';
+            } else if (score <= 10) {
+                status = 'Solid Pal';
+                statusColor = 'text-yellow-700 bg-yellow-100';
+            } else if (score <= 14) {
+                status = 'True BFF';
+                statusColor = 'text-blue-700 bg-blue-100';
+            } else {
+                status = 'Soulmate Status! 💖';
+                statusColor = 'text-green-700 bg-green-100';
+            }
+
+            // Update Modal Content
+            scoreDisplay.textContent = `${score}/${totalQuestions}`;
+            statusDisplay.textContent = status;
+            // Set the dynamic color class along with fixed styling classes
+            statusDisplay.className = `text-center text-2xl font-bold ${statusColor} p-3 rounded-lg`;
+
+            // Show Modal
+            showModal();
+        }
+
+        form.addEventListener('submit', function(event) {
+            event.preventDefault();
+            calculateScore();
+        });
+    </script>
+</body>
+
+</html>
