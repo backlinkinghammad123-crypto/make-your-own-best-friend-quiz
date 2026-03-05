@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://backlinkinghammad123-crypto.github.io/bestiequiz/sitemap.xml
+Sitemap: https://make-your-own-best-friend-quiz.vercel.app/sitemap.xml
