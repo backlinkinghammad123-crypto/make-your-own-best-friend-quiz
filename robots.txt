@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://backlinkinghammad123-crypto.github.io/bestiequiz/sitemap.xml
